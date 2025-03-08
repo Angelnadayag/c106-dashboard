@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Mini Grocery</h2>
+        <label for="wallet">Wallet Amount:</label>
+        <input type="number" id="wallet" value="">
+
+        <h3>Grocery Items (QTY):</h3>
+        <label for="Rice">Rice (₱1200/25kg):</label>
+        <input type="number" id="Rice" value="">
+        <br>
+        <br>
+
+        <label for="Hotdog">Hotdog (₱300/pack):</label>
+        <input type="number" id="Hotdog" value="">
+        <label for="Coke">Coke (12.5 per pcs):</label>
+        <input type"number" id="Coke" valu="">
+
+        <button onclick="calculate()">Calculate</button>
+
+        <h3>Result</h3>
+        <p>Wallet Amount: <span id="walletAmount"></span></p>
+        <p>Grocery Total: <span id="groceryTotal">0</span></p>
+        <p>Remaining Wallet: <span id="remainingWallet">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
